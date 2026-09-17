@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Privacy & Security — Advanced Structured Gantt</title>
+  <meta name="description" content="Privacy and security statement for Advanced Structured Gantt for Jira Cloud.">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html">Advanced Structured Gantt</a><nav><a href="index.html">Documentation</a><a href="support.html">Support</a></nav></header>
+  <main class="legal">
+    <p class="eyebrow">Effective 17 September 2026</p>
+    <h1>Privacy and security statement</h1>
+    <p>Advanced Structured Gantt is a Jira Cloud app built on Atlassian Forge. It processes Jira data only to provide the timeline, grouping, progress, date-editing and export features requested by the user.</p>
+
+    <h2>Data the app accesses</h2>
+    <p>The app may read Jira work items returned by a user-provided JQL query, Jira field metadata and Jira filters available to the current user. This can include work item keys, summaries, statuses, assignees, dates, estimates, story points and values of fields selected for display or grouping.</p>
+
+    <h2>How data is used</h2>
+    <p>Jira data is used to build the on-screen list and timeline and to generate exports initiated by the user. If the user drags a timeline bar and has the required Jira permission, the app writes the selected start and end dates back to that Jira work item.</p>
+
+    <h2>Storage and external sharing</h2>
+    <p>The app does not use a developer-operated database and does not send Jira data to an external analytics or processing service. Saved views, field mappings and display preferences are stored in the user's browser local storage. Jira requests run through Atlassian Forge and are made in the current user's Jira context.</p>
+
+    <h2>Permissions</h2>
+    <p><code>read:jira-work</code> is used to read work items, fields and filters. <code>write:jira-work</code> is used only when an authorized user chooses to update configured date fields by moving a timeline bar.</p>
+
+    <h2>Retention and deletion</h2>
+    <p>Because the app does not maintain a developer-operated data store, it retains no Jira work item data outside Atlassian. Browser-local preferences can be removed by clearing site data for Jira in the browser or uninstalling the app and clearing the related browser storage.</p>
+
+    <h2>Security</h2>
+    <p>Authentication and hosting are provided by Atlassian Forge. The app does not request or store Jira passwords or API tokens. Access remains subject to Jira permissions.</p>
+
+    <h2>Changes</h2>
+    <p>This statement may be updated when the app's data practices or features change. The effective date above identifies the current version.</p>
+  </main>
+  <footer><span>Published by Veysel Baysal</span><span><a href="index.html">Documentation</a> · <a href="support.html">Support</a></span></footer>
+</body>
+</html>
